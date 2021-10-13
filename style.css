@@ -12,6 +12,8 @@ html{
 
     --text-color:#3c4043;
     --botton-color: #f8f9fa;
+    --footer-color: #f2f2f2;
+    --footer-text-color:#70757a;
 }
 
 .nav-bar{
@@ -92,7 +94,7 @@ html{
     flex-flow: column wrap;
     align-items: center;
     width: 100%;
-    height: 50rem;
+    height: 59vh;
     margin: 2.7rem 0;
    
 }
@@ -173,4 +175,69 @@ button:hover{
 .textgoogle{
     font-size: small;
     color: var(--text-color);
+}
+
+/* Footer */
+
+.footer{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100vw;
+    height: 1.8rem ;
+    color: var(--text-color);
+    font-size: 1.5rem;
+    color: var(--footer-text-color);
+    
+    
+}
+
+.preferences{
+    
+    width: 49vw;
+}
+.about{
+   
+    width: 50vw;
+}
+.footer.top {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 2.5rem 0.5rem;
+    align-items: center;
+    border-bottom: 1px solid #dadce0;
+    background-color: var(--footer-color);
+}
+.location{
+    padding: 0 2.5rem;
+        
+}
+
+.about-bar{
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+    padding: 2rem;
+    justify-content: left;
+    background-color: var(--footer-color);
+    
+}
+
+.preferences-bar {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+    padding: 2rem;
+    justify-content: right;
+    background-color: var(--footer-color);
+
+}
+
+
+.itema{
+    padding: 0 1.5rem;
+}
+
+.itema:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
